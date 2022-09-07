@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <!--Ovo je komentar ctrl+/ informacije o stranici koje se ne prikazuju na stranici, osim titla -->
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- meta tagovi za opis-->
+    <META name="description" content="Ovaj tekst predstavlja odličan opis web stranice. ">
+    <META  name="keywords" content="HTML, tutorial, learn, make, create, design, web page, home page, education, form, tables, frames, javascript">
+     <!-- link za css fajl -->
+     <link rel="stylesheet" href="style.css">
+    <title>HTML OSNOVE</title>
+</head>
+<body>
+    <!-- Ovde je ono sto korisnik vidi na stranici -->
+    <h1>FON Web</h1>
+    <h2>O fakultetu</h2>
+    <hr>
+    <br>
+    <p><b>Fakultet</b> organizacionih nauka je visokoobrazovna institucija. Član je <b><i>beogradskog univerziteta</i></b>. Sedište fakuleta je u ulici Jove Ilića 154.</p>
+    <h2>Delatnost fakulteta</h2>
+    <p>Delatnost fakulteta je <tt>obrazovno naucni rad</tt> ukljucujuci srodne delatnosti.</p>
+    <h2>Smerovi na FON-u</h2>
+    <!-- Uredjena lista -->
+    <ol>
+        <li>IT</li>
+        <li>MEN</li>
+        <li>UK</li>
+        <li>OM</li>
+    </ol>
+    <h3>Informacioni sistemi i tehnologije</h3>
+    <h3>Menadzment</h3>
+    <h4>Vesti</h4>
+    <h2>Umetnute liste</h2>
+    <!-- neuredjena i umetnuta lista -->
+    <h3>Neuredjene liste i umetnute liste</h3>
+    <ul>
+        <li>Ovo je prva stavka</li>
+        <li>Ovo je druga stavka</li>
+        <ul>
+            <li>Ovo je prva podstavka druge stavke</li>
+            <ul>
+                <li>Ovo je prva podstavka</li>
+                <li>Ovo je druga podstavka</li>
+            </ul>
+            <li>Ovo je druga podstavka druge stavke</li>
+            <li>Ovoje treca podstavka druge stavke</li>
+        </ul>
+        <li>Ovo je treca stavka</li>
+    </ul>
+    <!-- uredjena sa umetnutom neuredjenom listom -->
+    <h2>Uredjena sa umetnutom ne uredjenom listom</h2>
+    <h3>Kombinovana lista</h3>
+    <ol>
+        <li>Ovo jeprva stavka</li>
+        <li>Ovo je druga stavka</li>
+        <ul>
+            <li>Ovo je prva podstavka druge stavke</li>
+            <ol>
+                <li>Ovo je druga podstavka</li>
+            </ol>
+            <li>Ovo je druga podstavka druge stavke</li>
+        </ul>
+        <li>Ovo je treca stavka</li>
+    </ol>
+    <!-- slike -->
+    <h2>Ubacivanje slika</h2>
+    <img src="logo.jpg" alt="Logo">
+    <h3>Mapiranje slika</h3>
+    <!-- Mapiranje slika - kada slika treba da sadrzi delove na koje se moze kliknuti i koji predstavljaju linkove koji nekuda vode -->
+    <!-- slika koja ce se prikazivati mapirana -->
+    <img src=" http://www.w3schools.com/TAGS/planets.gif" width="145" height="126" alt="Planets" usemap="#planetmap" />
+
+<map name="planetmap">
+  <area shape="rect" coords="0,0,82,126" alt="Sun" href="linkFile.html" />
+  <area shape="circle" coords="90,58,3" alt="Mercury" href="linkFile.html" />
+  <area shape="circle" coords="124,58,8" alt="Venus" href="linkFile.html" />
+</map>
+<!-- linkovi -->
+<h2>Linkovi</h2>
+<h3>Link za lokalne fajlove</h3>
+<p>Ovo je dokument sa linkom</p>
+<p>Kliknite da predjete na drugu stranu</p>
+<p><a href="linkFile.html">Link na drugu stranu</a></p>
+<h2>Link za grafiku</h2>
+<p>Ovo je dokument sa linkom na sliku</p>
+<p>Kliknite na link da biste videli sliku u bowser-u</p>
+<p><a href="logo.jpg">Link na sliku</a></p>
+<!-- Anchor link ka stranici na Internetu  -->
+<h2>Anchor link ka stranici na Internetu </h2>
+<p>Ovo je dokument sa linkom na sajt. </p>
+<p>Kliknite na link da biste otvorili sajt Fon-a. </p>
+<p><a href=www.fon.rs>Link na sajt fakulteta. </a></p> 
+
+</body>
+</html>
