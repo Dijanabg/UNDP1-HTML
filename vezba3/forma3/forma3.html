@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" type="image" href="html.png">
+    <title>Forma3</title>
+</head>
+<body>
+    <h1>Survey form</h1>
+    <h2>Let us know how we can improve our camp</h2>
+    <form action="">
+        <label for="name">*Name</label>
+        <input type="text" name="name" id="name" placeholder="Enter your name">
+        
+        <br><br>
+
+        <label for="email">*Email</label>
+        <input type="text" name="email" placeholder="Enter your email" id="email">
+
+        <br><br>
+
+        <label for="age">*Age</label>
+        <input type="number" name="age" id="" placeholder="Age">
+
+        <br><br><hr>
+
+        <label for="role">Which option best describes your current role?</label>
+        <br><br>
+
+        <select name="role" id="role">
+            <option value="student">Student</option>
+            <option value="worker">Worker</option>
+            <option value="teacher">Teacher</option>
+        </select>
+
+        <br><br>
+
+        <label for="like">*How likely is that you would recommend to a friend?</label><br><br>
+        <input type="radio" name="d" id="like">Definitely
+        <br>
+        <input type="radio" name="m" id="like">Maybe 
+        <br>
+        <input type="radio" name="n" id="like">Not sure
+        <br>
+
+        <br><br><hr>
+
+        <label for="fcc">What do you like most in xxx</label> <br>
+        <select name="fcc" id="fcc"> <br>
+            <option value="yes">yes</option>
+            <option value="no">no</option>
+        </select>
+
+        <br><br>
+
+        <label for="impr">Things that shouldbe improved in the Future</label><br><br>
+        <input type="checkbox" name="fp" id="fp">Front-end Projects <br>
+        <input type="checkbox" name="bp" id="bp">Back-end Projects <br>
+        <input type="checkbox" name="dv" id="dv">Data Visualization <br><br>
+        <label for="com">If you want to say something to us</label><br><br>
+        <textarea name="com" id="com" cols="30" rows="10">Say</textarea>
+        <br><br>
+        <input type="submit" value="submit">
+    </form>
+    
+</body>
+</html>

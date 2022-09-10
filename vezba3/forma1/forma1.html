@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" type="image" href="html.png">
+    <link rel="stylesheet" href="style.css">
+    <title>Forma1</title>
+</head>
+<body>
+    <form name="MyFirstForm">
+        <legend>Member Demographics</legend><br><br>
+        <label for="name">Name</label>
+        <input type="text" name="name" id="name">
+        
+        <p>Are you a Member?</p>
+        <input type="radio" name="member" id="member" checked>Member
+        <input type="radio" name="member" id="member">Non-member <br><br>
+        <label for="email">Email</label>
+        <input type="email" name="email" id="email" ><br><hr><br>
+        <label for="facility">Facility</label>
+        <select name="facility" id="facility">
+            <option name="facility" id="b">Badminton</option>
+            <option name="facility" id="t" selected>Tenis</option>
+            <option name="facility" id="f">Fudbal</option>
+        </select>
+        
+        <p>Select a reservation date and time:</p>
+        <input type="date" name="date" id="date">
+        <input type="time" name="time" id="time">
+<br><br>
+<input type="checkbox" name="agree" id="agree" >I agree to the clubs reservation policy <br><br>
+<input type="submit" value="Send">
+        <input type="reset" value="Reset">
+    </form>
+</body>
+</html>

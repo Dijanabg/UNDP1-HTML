@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" type="image" href="html.png">
+    <title>Forma2</title>
+</head>
+<body>
+    <form action="">
+        <h1>Travel reservation form</h1>
+    <label for="name">Full name*:</label>
+    <br>
+    <input type="text" name="name" id="name" placeholder="FirstName LastName" value="">
+    
+    <br><br>
+    
+    <label for="email">Email adress*:</label>
+    <br>
+    <input type="email" name="email" id="email" placeholder="EMAIL_ADDRESS" value=""><br><br>
+    <label>Select Tour Package* :</label><br>	
+    <select name="package">
+     <option value="Goa" >Goa</options>
+     <option value="Kashmir" >Kashmir</options>
+     <option value="Rajasthan" >Rajasthan</options>
+    </select>
+    
+    <br><br>
+    
+    <label for="date">Arrival date*:</label><br>
+    <input type="date" name="date" id="date">
+    <br><br>
+    <label for="persons">Number of persons*:</label>
+    <br>
+    <input type="number" name="broj" id="broj">
+    
+    <br><br>
+    
+    <label for="aktivnosti">What would you want to avail?</label>
+    <br>
+    Boarding <input type="checkbox" name="bo" id="bo"><br>
+    Fooding <input type="checkbox" name="fo" id="fo"><br>
+    Sight seeing <input type="checkbox" name="ss" id="ss" checked>
+    
+    <br><br>
+
+    <label for="terms">Terms and conditions*</label>
+    <br><input type="radio" name="terms" id="terms" checked>I agree
+    <input type="radio" name="terms" id="terms">I disagree
+    
+    <br><br>
+
+    <input type="reset" value="RESET">
+    <input type="submit" value="Complete reservation">
+    </form>
+</body>
+</html>
