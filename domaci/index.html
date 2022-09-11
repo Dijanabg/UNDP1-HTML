@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" type="image" href="html.png">
+    <title>HTML</title>
+</head>
+<body>
+    <h1>Dobrodosli na sajt o HTML-u!</h1>
+    <p style="color:green;">Sajt je posvecen ucenju HTML-a</p>
+    <form>
+        <label for="search">Pretraga po kljucnim recima:</label>
+        <br>
+        <form class="example" action="action_page.php">
+            <input type="text" placeholder="Pretrazi.." name="search">
+            <button type="submit">Pretrazi</button>
+          </form>
+      </form> 
+      <p>HTML, HyperText Markup Language, je standardizovani jezik koji se koristi pri strukruriranju tekstova, medija i ugradjenih objekata u veb stranice i elektronsku postu. <br>
+      Kao modifikovanu i pojednostavljenu verziju SGML jezika, HTML standardizuje i odrzava World Wide Web Consortium (W3C). <br>
+      Orginalnu verziju HTML-a kreirao je Tim Berners-Lee, a prva zvanicna verzija je izasla u junu 1993 godine.  
+    </p>
+    <hr>
+    <p>Neki od korisnih sajtova za ucenje HTML-a su:</p>
+    <ul>
+        <li><a href="https://www.w3schools.com" target="_blank">W3school</a></li>
+        <li><a href="https://www.codecademy.com/" target="_blank">Codecademy</a></li>
+    </ul>
+    <hr>
+    <p>Naucili smo, na primer, da postoje tagovi koji se prikazuju isto, ali imaju drugaciju namenu:</p>
+    <table border="1px" cellspacing="1">
+        <thead>
+            <tr>
+                <th>Znacenje</th>
+                <th>Tagovi</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td rowspan="2">Boldovan tekst</td>
+                <td>Tag: b</td>
+            </tr>
+            <tr>
+                <td>Tag: strong</td>
+            </tr>
+            <tr>
+                <td rowspan="2">Podvucen tekst</td>
+                <td>Tag: u</td>
+            </tr>
+            <tr>
+                <td>Tag: ins</td>
+            </tr>
+        </tbody>
+    </table>
+    <hr>
+    <h2>Vase misljenje nam je bitno!</h2>
+        <form>
+            <label for="ime">Ime</label>
+            <br>
+            <input type="text" id="ime">
+            <br>
+            <label for="email">Email</label>
+            <br>
+            <input type="email" name="email" id="email">
+            <br>
+            <label for="rang">Kurs mi se dopada:</label>
+            <br>
+            <input type="range" name="range" id="range">
+            <br>
+            <label for="pred">Predznanje iz HTM-a pre ovog kursa:</label>
+            <br>
+            <input type="radio" name="odg" value="p" checked>Prvi put slusam o HTM-u
+            <br>
+            <input type="radio" name="odg" value="m">Znao sam nesto malo o HTML-u
+            <br>
+            <input type="radio" name="odg" value="s">Znao sam skoro sve obradjene koncepte iz HTM-a
+            <br>
+            <label for="kom">Komentari</label>
+            <br>
+            <Textarea rows="5" cols="40" required></Textarea>
+            <br>
+            <input type="submit" value="Posalji">
+            <input type="reset" value="Resetuj formu!">
+        </form>
+</body>
+</html>
