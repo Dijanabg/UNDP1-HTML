@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Narudzbina</title>
+</head>
+<body>
+    <form>
+        <label for="ime">Ime i prezime:</label><br>
+        <input
+          type="text"
+          size="50"
+          maxlength="50"
+          name="ime"
+          id="ime"required />
+    <br>
+        <label for="email">Email:</label><br>
+        <input type="email" name="email" id="e" required>
+        <br>
+        <label for="kontakt">Kontakt telefon</label><br>
+        <input type="text" placeholder="+3816" id="kontakt" required>
+        <br><br>
+        <label for="pay">Placanje</label>
+        <select name="pay" id="pay">
+            <option value="k">Kartica</option>
+            <option value="p">Pouzecem</option>
+        </select><br><br>
+        <label for="mesto">Mesto</label><br>
+        <input type="radio" name="mesto" id="B">Beograd <br>
+       
+        <input type="radio" name="mesto" id="NS">Novi Sad <br>
+        <input type="radio" name="mesto" id="BNi">Nis <br>
+        <input type="submit" value="Posalji">
+        <input type="reset" value="Ponisti">
+    </form>
+</body>
+</html>

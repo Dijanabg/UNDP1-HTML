@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <form>
+        <label for="ime">Ime i prezime:</label><br>
+        <input
+          type="text"
+          size="50"
+          maxlength="50"
+          name="ime"
+          id="ime"required />
+    <br>
+        <label for="email">Email</label><br>
+        <input type="email" name="email" id="e" required>
+        <br>
+        <label for="kontakt">Kontakt telefon</label><br>
+        <input type="text" value="+3816" id="kontakt" required>
+        <label for="karte">Karte</label>
+        <select name="karte" id="karte">
+            <option value="sk">Studentska karta 25$</option>
+            <option value="rk">Redovna karta 50$</option>
+        </select><br><br>
+        <input type="radio" name="rad" id="d">Developer Advocate@ Auth0 <br>
+        <input type="radio" name="rad" id="v">Vue.js Core Team member <br>
+        <input type="radio" name="rad" id="hcj">HTML,CSS & JavaScript Workshop <br><br>
+        <input type="submit" value="Posalji">
+        <input type="reset" value="Ponisti">
+    </form>
+</body>
+</html>
